@@ -1,6 +1,6 @@
 # Overview
 
-imple barebones VMs that can be created ad-hoc and provisioned with Ansible
+Simple barebones VMs that can be created ad-hoc and provisioned with Ansible
 
 # Vagrant
 
@@ -22,6 +22,10 @@ vagrant destroy && DD_API_KEY="<your key>" vagrant up
 vagrant suspend
 vagrant up
 ```
+
+# Base Images
+
+The default base images used in these configurations are built by Packer in [golden-images](https://github.com/johnrichter/golden-images) and uploaded to Vagrant Cloud.
 
 # TODO
 
