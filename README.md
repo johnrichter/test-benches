@@ -15,3 +15,11 @@ Simple lab environments that can be used for testing
 │   # Ansible.
 └── vsphere
 ```
+
+# TODO
+
+Minimal setups for
+
+- [ ] Kubernetes
+- [ ] vSphere
+  - [ ] Terraform to set up a vSphere cluster
